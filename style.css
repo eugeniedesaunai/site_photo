@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.red_color{
+    color: brown;
+}
+
+.navbar-brand{
+    margin-left: 0.7em;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: brown;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(165, 42, 42, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.background_color{
+    background-color: brown;
+}
+
+.monoton{
+   font-family: 'Monoton', cursive; 
+}
+
+.russo{
+    font-family: 'Russo One', sans-serif;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.no_decoration{
+    list-style-type: none;
+}
+
+.padding_text{
+    padding: 15vw;
+}
+
+.nav-link:hover,.navbar-brand:hover{
+    opacity: 0.8;
+    color: brown;
+}
+
+/* présentation */
+
+.pres {
+    width: 100vw;
+    opacity: 0.6;
+    font-size: 1.2em;
+}
+
+.pres:hover {
+    opacity: 0.7;
+    color: rgb(218, 209, 209);
+}
+
+.background_img{
+    background-image:url(./photo/myst6.jpg);
+    width: 100vw;
+    background-size: cover;
+}
+
+.black_background{
+    background-color: black;
+}
+
+/* structure */ 
+
+.col-3{
+    width: 100%;
+    background-color:black;
+}
+
+.card{
+    width: 100vw;
+    background-color:black;
+}
+
+.hiden{
+    visibility: hidden;
+}
+
+@media (min-width: 570px){
+    
+    .section{
+        display: flex;
+        padding: 0;
+        width: auto;
+    }
+
+    .align_item_center{
+        display: flex;
+        align-items: center;
+    }
+
+    .flex_wrap_medium{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .flex_beetwen_lw{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex_end{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .flex_column{
+        flex-direction: column;
+    }
+
+    .background_img{
+        background-image:url(./photo/zt3.jpg);
+        width: 101vw;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .padding_button{
+       margin-right: 2em
+    }
+
+
+    .row{
+        width:auto;
+        height: 100vh;
+        display: flex;
+    }
+
+    
+    .col-3{
+        height: 100vh;
+        width: auto;
+        padding: 0;
+    }
+
+    .card{
+        height: 100%;
+        width: auto;
+    }
+
+
+    .row{
+        width:auto;
+        height: 100vh;
+        display: flex;
+    }
+
+    .portrait{
+        height: 100vh;
+    }
+
+
+    .row>*{
+        max-width: 103vw;
+    }
+
+    .pres{
+        opacity: 0.3;
+    }
+
+    .visibl{
+        visibility: visible;
+    }
+
+    .width_half{
+        width: 50vw;
+    }
+}
+
